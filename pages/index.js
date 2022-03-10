@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <Seo title="Home" />
-      <h1>Hello</h1>
+      <h1>홈페이지에요</h1>
     </div>
   );
 };
