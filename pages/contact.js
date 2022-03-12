@@ -9,17 +9,19 @@ export default function Contact() {
       <div className="relative flex p-6">
         <div className=" border-2">
           <p className="text-5xl font-thin">Contact</p>
-          <p className="text-5xl font-mideum pt-8">방문해 주셔서 감사합니다.</p>
+          <p className="text-5xl font-medium pt-16">
+            방문해 주셔서 감사합니다.
+          </p>
           <ul className="pt-12">
-            <li>
+            <li className="flex gap-3 text-xl">
               <FiUser />
               김성수(Kim Sungsu)
             </li>
-            <li>
+            <li className="flex gap-3 text-xl">
               <FiMail />
               usgnusmig@gmail.com
             </li>
-            <li>
+            <li className="flex gap-3 text-xl">
               <FiHome />
               <a
                 href="https://usgnuscodenote.tistory.com/"
@@ -29,7 +31,7 @@ export default function Contact() {
                 블로그
               </a>
             </li>
-            <li>
+            <li className="flex gap-3 text-xl">
               <FiGithub />
               <a
                 href="https://github.com/usgnusmig"
